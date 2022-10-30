@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: darkcyan;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav_list {
+  display: flex;
+  padding-top: 0;
+}
+.nav_item {
+  margin-left: 3rem;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_link {
+  color: black;
+}
