@@ -28,8 +28,9 @@ p {
 ==============*/
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /*Header
@@ -127,7 +128,7 @@ ul {
   letter-spacing: 6px;
 }
 
-img {
+.photo {
   margin-bottom: 10px;
   border: 10px solid #fff;
   border-radius: 50%;
@@ -161,4 +162,80 @@ img {
 }
 .btn_contact {
   text-align: center;
+}
+
+/*MAİN-BACKGROUND-ANİMATİON
+=========================*/
+
+@keyframes move {
+  100% {
+    transform: translate3d(0, 0, 1px) rotate(360deg);
+  }
+}
+
+.main_background-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 400px;
+  width: 5vmin;
+  position: absolute;
+  animation: move;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  top: 30vh;
+  left: 70vw;
+  animation-duration: 13s;
+  animation-delay: -25s;
+  transform-origin: -14vw 23vh;
+}
+
+.main_background-img img {
+  width: 40px;
+  top: 30vh;
+  left: 70vw;
+  animation-duration: 13s;
+  animation-delay: -25s;
+  transform-origin: -14vw 23vh;
+}
+
+/*ABOUT
+=====================*/
+
+.container-about {
+}
+.about_inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about_left {
+  width: 50%;
+  height: 300px;
+  font-family: "Raleway";
+  font-size: 50px;
+  color: #6c7279;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.content {
+  width: 50%;
+}
+.content-about {
+  color: #6c7279;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.paragraph-about {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 0 20px;
+  padding-bottom: 20px;
 }
