@@ -202,8 +202,6 @@ ul {
 /*ABOUT
 =====================*/
 
-.container-about {
-}
 .about_inner {
   display: flex;
   flex-wrap: wrap;
@@ -233,9 +231,263 @@ ul {
 
 .paragraph-about {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   text-align: justify;
   line-height: 1.5;
-  padding: 0 20px;
+  padding-right: 30px;
   padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/*SKİLLS AND LANGUAGES
+=====================*/
+.container-skills {
+  background-color: #000;
+}
+.skills_inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*skills-left collon====*/
+
+.skills-left {
+  font-family: "Raleway";
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.skills-hat {
+  width: 350px;
+  margin: 40px auto 20px;
+  padding: 5px 80px;
+  color: #fff;
+  font-size: 40px;
+  background-color: #6c7279;
+}
+
+.skills-ul {
+  list-style-type: disc;
+  margin-left: 90px;
+}
+
+.skills-li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/*Language-right collon====*/
+
+.language_right {
+  font-family: "Raleway";
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 90px;
+}
+
+.language-hat {
+  width: 350px;
+  margin: 40px auto 20px;
+  padding: 5px 80px;
+  color: #fff;
+  font-size: 40px;
+  background-color: #6c7279;
+}
+
+.language-name {
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.level {
+  text-transform: none;
+}
+
+.language-li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.language-ul {
+  list-style-type: disc;
+  margin-left: 90px;
+}
+
+/*experience====*/
+
+.experience {
+  font-family: "Raleway";
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 100px;
+  text-align: center;
+}
+.experience-hat {
+  width: 350px;
+  margin: 40px auto 20px;
+  padding: 5px 80px;
+  color: #fff;
+  font-size: 40px;
+  background-color: #6c7279;
+}
+.experience-ul {
+  list-style-type: disc;
+  margin-left: 90px;
+}
+.experience-li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.experience-name {
+  font-size: 20px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*Education=========*/
+
+.education_inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.education_left {
+  width: 50%;
+  height: 300px;
+  font-family: "Raleway";
+  font-size: 50px;
+  color: #6c7279;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.education-content {
+  width: 50%;
+}
+.content-edu {
+  color: #6c7279;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.paragraph-edu {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/*CODE========*/
+
+.code_inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #000;
+}
+
+.code_left {
+  width: 50%;
+  height: 300px;
+  font-family: "Raleway";
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.content-code {
+  width: 50%;
+}
+.content-coder {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.paragraph-code {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+/*contact*/
+
+.contact_inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact_left {
+  width: 50%;
+  height: 300px;
+  font-family: "Raleway";
+  font-size: 50px;
+  color: #6c7279;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.content-contact {
+  width: 50%;
+}
+.content-con {
+  color: #6c7279;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.paragraph-contact {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/*FOOTER*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+.footer-bkg {
+  background-color: black;
+}
+.my-github {
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .github-icon {
+  margin-right: 10px;
 }

@@ -119,8 +119,143 @@
           </div>
         </div>
       </section>
+      <section class="container-skills">
+        <div class="skills">
+          <div class="skills_inner">
+            <div class="skills-left">
+        <h3 class="skills-hat">Skills</h3>
+        <ul class="skills-ul">
+          <li class="skills-li"> HTML5, CSS3</li>
+          <li class="skills-li"> JavaScript Basics</li>
+          <li class="skills-li"> Git, GitHub</li>
+          <li class="skills-li"> VS Code, Nodejs</li>
+          <li class="skills-li"> Adobe Photoshop</li>
+          <li class="skills-li"> Adobe Illustrator, InDesign</li>
+        </ul>
+      </div>
+      <div class="language_right">
+        <h3 class="language-hat">Languages</h3>
+        <ul class="language-ul">
+          <li class="language-li"> <p class="language-name">English</p>
+          <p class="level">İntermediate</p></li>
+          <li> <p class="language-name">Russian</p>
+            <p class="level">Native</p></li>
+            <li class="language-li"> <p class="language-name">Turkish</p>
+              <p class="level">Upper-intermediate</p></li>
+              <li class="language-li"> <p class="language-name">Kyrgyz</p>
+                <p class="level">Upper-intermediate</p></li>
+        </ul>
+      </div>
+      <div class="experience">
+        <h3 class="experience-hat">Experience</h3>
+        <ul class="experience-ul">
+          <li class="experience-li"> <p class="experience-name">Portfolio website</p>
+          <li> <p class="experience-name">Other small projects</p>
+           </li>
+        </ul>
+      </div>
+      </div>
+      </div>
+      </section>
+
+      <section class="container-education">
+        <div class="education">
+          <div class="education_inner">
+            <div class="education_left">
+              <h3>
+                <br />
+                Education, <br />
+                Courses, <br />
+                Lectures,
+              </h3>
+            </div>
+            <div class="education-content">
+              <h2 class="content-edu">Education, Courses, Lectures</h2>
+              <div class="paragraph-edu">
+              <p >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis explicabo, odio vitae, commodi delectus maxime consequatur nesciunt assumenda deserunt facilis itaque aperiam veniam omnis possimus, natus quos? Maiores deleniti facere eaque quibusdam sequi error unde quae. Sapiente commodi quasi maxime voluptatem provident unde nobis velit suscipit ea, error quas fugit aspernatur hic totam illo rerum fuga aperiam repellat porro esse!
+
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <section class="container-code">
+          <div class="code">
+            <div class="code_inner">
+              <div class="code_left">
+                <h3>
+                  <br />
+                  Code <br> Exemple
+                </h3>
+              </div>
+              <div class="content-code">
+                <div class="paragraph-code">
+                <code >
+                  function peak(arr) {
+
+                    for (let i = 1; i < arr.length - 1; i++) {
+                      let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+                      let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+                      if (leftSum === rightSum) return i;
+                    }
+                    return -1;
+                  }
+                </code>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+
+      <section class="container-contact">
+        <div class="contact">
+          <div class="contact_inner">
+            <div class="contact_left">
+              <h3>
+                <br />
+                phone, <br />
+                Mail, <br />
+                Linkedİn,
+              </h3>
+            </div>
+            <div class="content-contact">
+              <h2 class="content-con">Contact</h2>
+              <div class="paragraph-contact">
+                <ul>
+                  <li>
+                    <img src="./icons2/email.svg" alt="Phone Icon" width="30" height="30">
+                    <p>+38 (068) 44-89-766</p>
+                  </li>
+                  <li>
+                    <img src="./icons2/linkedin.svg" alt="Email Icon" width="30" height="30">
+                    <p>ankavoloshina@gmail.com</p>
+                  </li>
+                  <li>
+                    <img src="./icons2/phone.svg" alt="Telegram Icon" width="30" height="30">
+                    <p>@hannavoloshyna</p>
+                  </li>
+                </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!--FOOTER-->
-    <footer></footer>
+    <footer class="footer-bkg">
+      <a class="my-github" href="https://github.com/Akchalovna">
+        <img class="github-icon" src="./icons2/github.svg" alt="Github Icon" width="26" height="26">
+        <p>Visit my GitHub</p>
+      </a>
+      <p>© 2021</p>
+      <a href="https://rs.school/js/">
+        <img src="./icons2/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
   </body>
 </html>
