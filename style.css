@@ -1,9 +1,9 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0;
   font-size: 14px;
   color: #6c7279;
-  background-color: #000;
+  background-color: #fff;
 }
 *,
 *:before,
@@ -35,6 +35,7 @@ p {
 /*Header
 =================*/
 .header {
+  background-color: rgb(16, 15, 15);
 }
 
 .header_inner {
@@ -73,9 +74,6 @@ nav {
   padding-top: 0;
 }
 
-.nav_item {
-}
-
 .nav_link {
   color: #fff;
   text-decoration: none;
@@ -104,6 +102,7 @@ ul {
   justify-content: center;
   height: 750px;
   padding-top: 100px;
+  background-color: #000;
 }
 
 .main_inner {
@@ -114,7 +113,7 @@ ul {
 }
 
 .main_title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.1;
@@ -124,7 +123,7 @@ ul {
 
 .main_subtitle {
   margin: 0;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   letter-spacing: 6px;
 }
 
@@ -136,3 +135,30 @@ img {
 
 /*BUTTON
 =================*/
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 14px 40px;
+  margin-top: 20px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: bacground 0.1s linear;
+}
+
+.btn--grey {
+  background-color: #6c7279;
+}
+
+.btn--grey:hover {
+  background-color: #748fab;
+}
+.btn_contact {
+  text-align: center;
+}
