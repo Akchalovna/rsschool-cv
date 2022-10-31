@@ -1,15 +1,93 @@
-.header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: darkcyan;
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 14px;
+  color: #6c7279;
+  background-color: #000;
 }
-.nav-bar {
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/*Container
+==============*/
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/*Header
+=================*/
+.header {
+}
+
+.header_inner {
   display: flex;
-  justify-content: space-around;
-  font-weight: 600;
+  justify-content: space-between;
+  border-bottom: 1px solid#515369;
+  padding: 35px 0;
   align-items: center;
+}
+
+.header_logo {
+  font-family: "Great Vibes";
+  font-size: 45px;
+  opacity: 0.75;
+}
+
+.header_logo:hover {
+  opacity: 1;
+}
+.logo_home {
+  color: #fff;
+}
+
+/*Navigation
+=================*/
+
+nav {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.nav_list {
+  display: flex;
+  padding-top: 0;
+}
+
+.nav_item {
+}
+
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: 0.1s linear;
+  margin-left: 45px;
+}
+#home {
+  margin: 0;
+}
+.nav_link:hover {
+  opacity: 1;
 }
 
 ul {
@@ -17,19 +95,44 @@ ul {
   padding: 0;
   list-style: none;
 }
-.nav_list {
+
+/*MAİN
+=================*/
+.main {
   display: flex;
-  padding-top: 0;
-}
-.nav_item {
-  margin-left: 3rem;
-  margin-bottom: 0;
-}
-
-a {
-  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  height: 750px;
+  padding-top: 100px;
 }
 
-.nav_link {
-  color: black;
+.main_inner {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+  text-align: center;
 }
+
+.main_title {
+  margin-bottom: 50px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.main_subtitle {
+  margin: 0;
+  margin-bottom: 60px;
+  letter-spacing: 6px;
+}
+
+img {
+  margin-bottom: 10px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+}
+
+/*BUTTON
+=================*/
