@@ -470,24 +470,93 @@ ul {
 /*FOOTER*/
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  font-size: 0.8rem;
-  color: #ffffff;
-}
-.footer-bkg {
-  background-color: black;
-}
-.my-github {
-  align-items: center;
-}
-footer a {
-  text-decoration: none;
-  color: #ffffff;
+  background-color: rgb(31, 29, 29);
 }
 
-footer .github-icon {
-  margin-right: 10px;
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 70px 0;
+}
+
+.footer__block {
+  width: 33.33333%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.footer__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.my-github {
+  opacity: 0.75;
+  text-decoration: none;
+  color: white;
+}
+
+.github-font {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Copyright
+===================*/
+
+.copyright__text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Burger */
+.burger {
+  display: none;
+  padding: 9px 2px;
+
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.burger__item {
+  display: block;
+  width: 28px;
+  height: 3px;
+
+  background-color: #fff;
+
+  font-size: 0;
+  color: transparent;
+
+  position: relative;
+}
+
+.burger__item:before,
+.burger__item:after {
+  content: "";
+  height: 100%;
+
+  background-color: #fff;
+
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.burger__item:before {
+  width: 30px;
+  top: -8px;
+}
+
+.burger__item:after {
+  width: 26px;
+  bottom: -8px;
 }
